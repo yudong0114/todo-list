@@ -1,5 +1,6 @@
 # 概要
-ReactでTODOリストを作成します。
+ReactでTODOリストを作成します！  
+参考の模写です！
 
 ## 参考
 * https://qiita.com/rioc/items/8723c236e10d989e827d

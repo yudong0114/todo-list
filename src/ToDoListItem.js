@@ -6,12 +6,13 @@ class ToDoListItem extends React.Component {
     // 登録する情報(Props)
     const {
       title,
-      description
+      description,
+      ...props
     } = this.props;
 
     // 登録されたTODOリストのデータを表示
     return (
-      <div className="ToDoListItem">
+      <div className="ToDoListItem" {...props}>
         <div className="ToDoListItem-title">{title}</div>
         <div className="ToDoListItem-description">{description}</div>
       </div>
